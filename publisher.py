@@ -6,7 +6,7 @@ with open('students.json') as f:
   students_data = json.load(f)
 
 
-project_id = "springmltraining-316807"
+project_id = "training-316807"
 topic_id = "pub-sub-training"
 credential_path = "newpub.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
