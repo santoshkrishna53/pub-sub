@@ -2,7 +2,7 @@ from google.cloud import pubsub_v1
 import os
 import json
 import codecs
-project_id = "springmltraining-316807"
+project_id = "training-316807"
 topic_id = "pub-sub-training"
 sub_id = 'pub-sub-training-sub'
 credential_path = "newpub.json"
